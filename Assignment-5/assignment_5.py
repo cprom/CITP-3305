@@ -8,9 +8,9 @@ class DigitalAssistant:
         self.name = name
         self.greeting1 = greeting1
         self.greeting2 = greeting2
-        self.alive_statement()
-        print(greeting1)
-        print(greeting2)
+
+        #print(greeting1)
+        #print(greeting2)
 
     def alive_statement(self):
         """Display a greeting."""
@@ -35,7 +35,7 @@ class DigitalAssistant:
                 """count vowels in a string"""
                 count = 0
                 vowels = {'a','e','i','o','u','A','E','I','O','U'}
-                print("Okay, counting Vowels Now!\n")
+                print("\nOkay, counting Vowels Now!\n")
                 for char in string:
                     if (char in vowels):
                         count += 1
@@ -43,13 +43,13 @@ class DigitalAssistant:
             
             def find_hypotenuse(long_side, short_side): # Keyword Arguments
                 """given 2 sides calculate the hypotenuse of a triangle"""
-                print("I am finding the hypotenuse of the triagle now.\n")
+                print("\nI am finding the hypotenuse of the triagle now.\n")
                 hypotenuse = math.sqrt(long_side ** 2 + short_side ** 2)
                 return hypotenuse
 
             def sum_range_of_num(num):
                 """sum all numbers from 1 to a number value"""
-                print(f"Okay, I will sum the numbers from 1 to {num}.\n")
+                print(f"\nOkay, I will sum the numbers from 1 to {num}.\n")
                 sum = 0
                 for i in range(1, num + 1):
                     sum += i
@@ -57,13 +57,13 @@ class DigitalAssistant:
 
             def convert_to_fahrenheit(degree_celcius = 100): #default value
                 """convert temperature from celcius to fahrenheit"""
-                print(f"Let me the temperature of {degree_celcius} degree celcius to Fahrenheit for you.\n")
+                print(f"\nLet me the temperature of {degree_celcius} degree celcius to Fahrenheit for you.\n")
                 degree_f = (degree_celcius * 1.8) + 32
                 return degree_f
 
             def palindrome_check(phrase):
                 """check to see if a phrase is a palindrome"""
-                print(f"Checking if the phrase \"{phrase}\" is a Palindrome.\n")
+                print(f"\nChecking if the phrase \"{phrase}\" is a Palindrome.\n")
                 if(phrase == phrase[::-1]):
                     return True
                 else:
@@ -90,7 +90,7 @@ class DigitalAssistant:
                 else:
                     print("Nope not a Palindrome")
             else:
-                print("Hmm I don't know that one, please pick a trick from the list.\n")
+                print("\nHmm I don't know that one, please pick a trick from the list.\n")
 
             # Use to repeat the program until 'n' is typed 
             repeat = input("\nWould you like to see another trick? (y/n)") #Repeats the menu() function if answer is not 'n'
