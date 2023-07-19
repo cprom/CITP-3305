@@ -96,6 +96,6 @@ class DigitalAssistant:
             repeat = input("\nWould you like to see another trick? (y/n)") #Repeats the menu() function if answer is not 'n'
             if repeat == 'n':   # Use to exit the program (Task 8)
                 polling_active = False
-                print("\nHow about a nice game of chess?  Goodbye!\n")
+                print("\nIt was a pleasure speaking with you today.  Goodbye!\n")
 
 
