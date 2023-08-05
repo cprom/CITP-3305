@@ -1,0 +1,11 @@
+Change the ship speed to 10.5 in settings.py.
+Chanage the bullet speed to 20.0 in settings.py.
+Change the scale of the ship to (80,80) in ship.py.
+Change the scale of the alien to (70, 70) in alien.py.
+Change the color of the button to (255, 0 , 0).
+Add background picture on top of black background in alien_invation.py line 29 and line 239.
+Change the background color to black in settings.py line 9 self.bg_color = (0, 0, 0).
+Change Scoreboard font color to white.  scoreboard.py line 19 self.text_color = (255, 255, 255).
+Change bullet color in settings.py, self.bullet_color = (253, 6, 255).
+Change the amount of bullets can be fired to 10. settings.py line 18.
+
